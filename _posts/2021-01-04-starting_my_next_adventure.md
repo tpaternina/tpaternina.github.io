@@ -3,10 +3,11 @@ layout: single
 title:  "Starting my next adventure"
 autor: Toni Paternina
 date:   2021-01-04 17:44:50 +0100
-categories: journal aboutme
+categories: journal aboutme codecademy
+excerpt: Why I started learning web development instead of looking for a job as a Bioinformatician
 ---
  
- The year 2020 was tumultuous for many reasons. France entered a full lock down in march due to the rapid spread of Covid-19. This meant spending several weeks in isolation in my small 17 m2 studio, while attempting to wrap up the last data analyses for my PhD. Time went by, and as I prepared to write my thesis manuscript, I had the worst case of self-doubt and imposter syndrome I had ever had. With the support of my supervisors, I did manage to complete the manuscript and send it off to my reviewers, which was a huge relief. However, as I prepared my defense, my mom fell ill and depended on me to take care of her (she has successfully recovered, thankfully). I still managed to prepare decent slides and, although my presentation was not as fluid as I would have liked, I managed to defend my manuscript and was granted a PhD from one of the top [higher education institutions in France](https://www.ens.psl.eu/en/ens/facts-and-rankings/international-rankings).
+ The year 2020 was tumultuous for many reasons. France entered a full lock down in march due to the rapid spread of Covid-19. This meant spending several weeks in isolation in my small 17 m2 studio, while attempting to wrap up the last data analyses for my PhD. Time went by, and as I prepared to write my thesis manuscript, I had the worst case of self-doubt and imposter syndrome I have ever had. With the support of my supervisors, I did manage to complete the manuscript and send it off to my reviewers, which was a huge relief. However, as I prepared my defense, my mom fell ill and depended on me to take care of her (she has successfully recovered, thankfully). I still managed to prepare decent slides and, although my presentation was not as fluid as I would have liked, I managed to defend my manuscript and was granted a PhD from one of the top [higher education institutions in France](https://www.ens.psl.eu/en/ens/facts-and-rankings/international-rankings).
  
  To say that my path to graduation was a bumpy road is an understatement. All the obstacles, wrapped in the general uncertainty that the pandemic brought, took me to very dark places. Yet, I am grateful I went through that experience witout losing loved ones, and keeping my physical health. Also, my PhD mentors and living through the pandemic helped me decide to **finally** take the steering wheel of my life. 
  

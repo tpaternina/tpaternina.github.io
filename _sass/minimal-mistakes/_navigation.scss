@@ -186,6 +186,8 @@
     text-decoration: none;
     -webkit-transition: none;
     transition: none;
+    font-family: "Raleway", Arial;
+  	font-weight: 350;  
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -197,6 +199,8 @@
     }
 
     &.site-title {
+      font-family: "Raleway", Arial;
+  	  font-weight: 450;  
       margin-left: 0;
     }
   }
