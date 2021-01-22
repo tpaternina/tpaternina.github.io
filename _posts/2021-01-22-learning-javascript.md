@@ -47,7 +47,8 @@ myAge = 29;
 
 // I was born on this year, it does not change
 const birthYear = 1992;
-birthYear = 1993; // THROWS AN ERROR
+birthYear = 1993;
+// Throws TypeError
 ```
 
 That seems simple, straightforward. However, the value inside a variable can change if the data type is *mutable*, independently of whether it was declared with `let` or `const`. An example of mutable data type is the Array object. We can modify the values within the array, add or delete elements. However, if the array was stored in a `const` variable, we cannot reassign the value:
@@ -59,7 +60,8 @@ const list = ['Katara', 'Zuko', 'Aang', 'Sokka'];
 list.push('Toph');
 
 // But we cannot assign a different value to `list`
-list = ['Azula', 'Mai', 'Ty Lee']; // THROWS AN ERROR!
+list = ['Azula', 'Mai', 'Ty Lee']; 
+// Throws TypeError
 ```
 So, everytime we use the `const` and `let` keywords we assign values to variables, right? Well...
 
