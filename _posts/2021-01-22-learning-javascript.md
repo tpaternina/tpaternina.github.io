@@ -67,7 +67,7 @@ So, every time we use the `const` and `let` keywords we assign values to variabl
 
 ## The variants of functions
 
-While Python and Java work with  the keywords `def` and `fun`, there are many ways to write functions with JavaScript. One of them is *function assignment*, where we write a function and assign its "value" to a variable:
+While Python functions are written with the keyword `def`, there are many ways to write functions with JavaScript. One of them is *function assignment*, where we write a function and assign its "value" to a variable:
 
 ```javascript
 const hello = function(user) {
