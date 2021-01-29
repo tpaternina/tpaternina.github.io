@@ -33,3 +33,16 @@ Objects
 - At this point the variety of ways to define functions starts being a bit confusing. Functions inside objects (or methods) can be defined as function assignmets, as arrow functions, and with the functionName() syntax. However, they cannot be used interchangeably in all contexts: arrow functions are incompatible with the this object, as they use the global this within their scope!
 - also privacy is kind of weird. It's a fair solution to go by convention, but should we trust what others (or even ourselves) do with the code?
 - getters and setters have yet another syntax different from other methods. I guess it's good to distinguish, but a bit confusing to call a method without parentheses. 
+
+
+
+FRONT-END DEV
+
+1. THE INTERNET
+Cool,because I had vague notions from being an internet user. Concrete concepts explained several times to understand the main components of the internet and how browsers interact with servers.
+
+2. QUICK RVIEW OF THE LANGUAGES USED IN FRONT-END
+Felt weird because I read about javascript after completing a basic jvascript course. I know some html and css, but I think is gonna be useful to practice it and get some updates.
+
+3. HTML
+
