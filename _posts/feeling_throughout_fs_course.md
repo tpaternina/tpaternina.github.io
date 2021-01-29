@@ -30,7 +30,7 @@ Objects
 - for ... in syntax is only for objects but doesn work for arrays (it does -> arrays are objects whose keys are numbers)? As with regular for loops, it requires variable declaration. This variable does not point to the actual value of the property/nested object in the object, but just to its name.
 	- LOL to iterate through the elements of an array we use the forEach() method!
 - Create different objects of the same "class" by coding a function that returns objects. How does that differ from a class constructor? We will find out I guess.
-- At this point the variety of ways to define functions starts being a bit confusing. Functions inside objects (or methods) can be defined as function assignmets, as arrow functions, and with the functionName() syntax. However, they cannot be used interchangeably in all contexts: arrow functions are incompatible with the this object, as they use the global this within their scope!
+- At this point the variety of ways to define functions starts being a bit confusing. Functions inside objects (or methods) can be defined as function assignments, as arrow functions, and with the functionName() syntax. However, they cannot be used interchangeably in all contexts: arrow functions are incompatible with the this object, as they use the global this within their scope!
 - also privacy is kind of weird. It's a fair solution to go by convention, but should we trust what others (or even ourselves) do with the code?
 - getters and setters have yet another syntax different from other methods. I guess it's good to distinguish, but a bit confusing to call a method without parentheses. 
 
