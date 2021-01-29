@@ -103,7 +103,7 @@ If you are looking for another way to write functions, JavaScript has your back.
 
 ```javascript
 function hello(user) {
-    return `Hello ${Momo}!`;
+    return `Hello ${user}!`;
 }
 ```
 According to the Codecademy material, the main difference between function declaration and function assignment is the order of execution when the script runs. Function declarations run before variable declarations, so whe can declare a function *after* writing code that calls that function:
@@ -112,7 +112,7 @@ According to the Codecademy material, the main difference between function decla
 console.log(hello('Momo'));
 
 function hello(user) {
-    return `Hello ${Momo}!`;
+    return `Hello ${user}!`;
 };
 ```
 
@@ -123,7 +123,7 @@ console.log(hello('Momo'));
 // Throws a Reference error because hello() has not been defined yet
 
 const hello = function(user) {
-    return 'Hello ${user}!';
+    return `Hello ${user}!`;
 };
 
 ```
