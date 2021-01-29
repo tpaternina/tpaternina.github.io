@@ -27,4 +27,6 @@ for (let index=0 ; index < myArray.length ; index++) {
 
 In this example, we initialize our counter (`index = 0`), define the condition that will stop the loop, and define how to change our counter at the end of each iteration. In this example, the index of arrays are 0-based (the first element is at position 0), so the last element is indexed at `myArray.length - 1`. At each iteration, we print the value of `index`, then pick the element in myArray at the `index` position and print it. Then, we increase the value of `index` by 1. Once the value of our counter reaches the number of elements in the array, the condition `index < myArray.length` is no longer true, so the script breaks out of the loop. 
 
-In principle, there was nothing new to me here. Yet, I would later find out how important is using the `let` statement when initializing the counter.
+In principle, there was nothing new to me here. Yet, I would later find out how important it is to use the `let` statement when initializing the counter, but that's a post for another day.
+
+## Javascript --dictionaries--
