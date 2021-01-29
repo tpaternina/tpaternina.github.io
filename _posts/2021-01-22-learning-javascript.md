@@ -71,7 +71,7 @@ While Python functions are written with the keyword `def`, there are many ways t
 
 ```javascript
 const hello = function(user) {
-    return 'Hello ${user}!';
+    return `Hello ${user}!`;
 };
 ```
 
@@ -153,7 +153,7 @@ const greetUserMultiline = user => {
 const greetUsers = (user1, user2) => `Hello ${user1} and ${user2}!`;
 ```
 
-Arrow functions [have several limitations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). For the moment, I know I cannot write arrow functions with the `function` statement. I am currently using them when assigning a function or when I need an anonymous function (for instance, to iterate through an array).
+Arrow functions [have several limitations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). For the moment, all I know is that arrow functions don't need with the `function` statement. I am currently using arrow functions only when doing function assignment or when I need an anonymous function (for instance, to iterate through an array).
 
 Coming from the Python universe, I felt surprised (and at times *overwhelmed*) with the number of function variants in JavaScript. In Python I only used the `fun` statement for named functions, and the `lambda` statement for anonymous functions. In JavaScript, three variations, each with specific syntax (which varied also for arrow functions depending on the number of arguments and lines of code), felt like a lot. But I guess it's just a matter of habit and knowing in which context each of them should be used.
 
