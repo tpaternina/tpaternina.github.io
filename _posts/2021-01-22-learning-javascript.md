@@ -63,6 +63,17 @@ list.push('Toph');
 list = ['Azula', 'Mai', 'Ty Lee']; 
 // Throws TypeError
 ```
+It is worth noting that variables cannot be re-declared, either with `let` or `const` variables. So, if you want to change the value inside a function, you can assign the new value to a `let` variable, *without* using the `let` statement:
+```javascript
+let myAge = 23;
+
+// This throws a SyntaxError
+let myAge = 28;
+
+// This works
+myAge = 28;
+```
+
 So, every time we use the `const` and `let` keywords we assign values to variables, right? Well...
 
 ## The variants of functions
