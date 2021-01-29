@@ -24,6 +24,8 @@ date: 2021-01-22 19:00:00
 
 - Loops, no problem, for loop syntax identical to Java for loops. Reviwed while loops and learned do while syntax.
 
+- Scope: which variables can be _seen_ b different blocks of code.
+
 - Objects...initially sntax reminded of Python dictionaries. Key-value pairing of variables, with possible different data types. tese are called properties of the object.
 - But objects can also have methods, so in this sense it felt like writing a class. 
 - However, unlike writing a class, there are different ways to write an oject. Literal writes an instance of an object, no constructor. If you want a similar object you copy properties and modify, or write a function that returns an oject. 
