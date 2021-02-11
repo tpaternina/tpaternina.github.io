@@ -1,3 +1,35 @@
 body {
   margin: 0 35px 0 35px;
 }
+
+em {
+  color: #888;
+  font-family: Lora, Georgia, serif;
+}
+
+/* Container for the blog logo link */
+nav #logo {
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  /*width: 25%;*/
+}
+
+nav li {
+  display: inline-block;
+  margin: auto;
+  text-align: : right;
+}
+
+#contact {
+  background-color: #e1e1e1;
+  color: #454545;
+  padding: 0 15px 15px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+#contact h3 {
+  padding-top: 15px;
+}
