@@ -25,7 +25,7 @@ As you may guess, this situation was all new to me. Even though I had the help a
 
 It all unraveled when it was time to sit down and write my dissertation. This was the most massive project I had ever worked on. As one of my supervisors said, the thesis manuscript is like a mountain. It is huge, but with a map to guide you, and the consistency to climb it, you can reach the top. I was paralyzed. It took me a while to write the structure of the manuscript. Once I completed it and started writing the actual thing, I still felt insecure about what I was producing. Was I being accurate? Was I forgetting to include something? Is this going to be enough for the jury, for my supervisors, for me?
 
-In the end, it all worked out. I completed the manuscript, I defended my thesis, and I was granted a PhD from one of the top institutions in France. I proud of this accomplishment because it was one of the hardest things I have ever done. But for the same reason, thinking about those last months, awakens the bad feelings I went through at the time.
+In the end, it all worked out. I completed the manuscript, I defended my thesis, and I was granted a PhD from one of the top institutions in France. I'm proud of this accomplishment because it was one of the hardest things I have ever done. But for the same reason, thinking about those last months, awakens the bad feelings I went through at the time.
 
 ## Learning full-stack is not a path of roses
 
