@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汉语生词卡片</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#4A90E2',
+secondary: '#F5A623'
+},
+borderRadius: {
+'none': '0px',
+'sm': '2px',
+DEFAULT: '4px',
+'md': '8px',
+'lg': '12px',
+'xl': '16px',
+'2xl': '20px',
+'3xl': '24px',
+'full': '9999px',
+'button': '4px'
+}
+}
+}
+}
+</script>
+<style>
+body {
+font-family: 'Noto Sans SC', sans-serif;
+min-height: 1024px;
+background-color: #F7F9FC;
+}
+.word-card {
+transition: all 0.3s ease;
+}
+.word-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.play-button {
+transition: all 0.2s ease;
+}
+.play-button:hover {
+transform: scale(1.1);
+color: #4A90E2;
+}
+.pinyin {
+font-size: 14px;
+color: #666;
+margin-bottom: 4px;
+}
+.chinese {
+font-size: 24px;
+font-weight: 500;
+color: #333;
+}
+</style>
+</head>
+<body>
+<div class="container mx-auto px-4 py-8 max-w-[1440px]">
+<h1 class="text-3xl font-bold mb-8 text-center">汉语生词卡片</h1>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 text-gray-700">食材类</h2>
+<div class="grid grid-cols-4 gap-6">
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/5c19fd7e46df80da7761d7ac6ea0d282.jpg" alt="鸡蛋" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">jī dàn</div>
+<div class="chinese">鸡蛋</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/7ef9c5dc9d614117b660947bf61ec66f.jpg" alt="肉" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">ròu</div>
+<div class="chinese">肉</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/ad36689c66fcf088df329643222016f5.jpg" alt="鱼肉" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">yú ròu</div>
+<div class="chinese">鱼肉</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/64fb9a5cbe52a1029fe2e656b1ea38d6.jpg" alt="海鲜" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">hǎi xiān</div>
+<div class="chinese">海鲜</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/6aae6cbc4f77094e5ea4941d285b384a.jpg" alt="蔬菜" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shū cài</div>
+<div class="chinese">蔬菜</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/784cd338370aed0a57504206657c17cb.jpg" alt="水果" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shuǐ guǒ</div>
+<div class="chinese">水果</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/859886885f3641a797fd63f057a15954.jpg" alt="苹果" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">píng guǒ</div>
+<div class="chinese">苹果</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/a7a0514972cc3b8f4b977fabf1bf7265.jpg" alt="香蕉" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">xiāng jiāo</div>
+<div class="chinese">香蕉</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 text-gray-700">熟食类</h2>
+<div class="grid grid-cols-4 gap-6">
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/4cf89e4974ab853fc63ea2e6b53e39f3.jpg" alt="面包" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">miàn bāo</div>
+<div class="chinese">面包</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/92b05ba5758443afed7d3077f43513ab.jpg" alt="面条" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">miàn tiáo</div>
+<div class="chinese">面条</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/b10ec6d36b3eca5264b8bc51811bde06.jpg" alt="包子" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">bāo zi</div>
+<div class="chinese">包子</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://image-resource.mastergo.com/154574364716295/154574364716297/86e28c9b356b89af63c3e6dff4fdc91d.jpg" alt="饺子" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">jiǎo zi</div>
+<div class="chinese">饺子</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/f5e349c3b13516a6dc9da9ab7985f607.jpg" alt="汉堡包" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">hàn bǎo bāo</div>
+<div class="chinese">汉堡包</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/a77f4f8dc1339440e1bfb3efc104a501.jpg" alt="披萨饼" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">pī sà bǐng</div>
+<div class="chinese">披萨饼</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/0356991bc751dfb804d122ebf968ad00.jpg" alt="薯条" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shǔ tiáo</div>
+<div class="chinese">薯条</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/ecca6e563478eeb1b9ebb19c2eb8d893.jpg" alt="巧克力" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">qiǎo kè lì</div>
+<div class="chinese">巧克力</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 text-gray-700">饮品类</h2>
+<div class="grid grid-cols-4 gap-6">
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/fb78a53c02eb16a3d5df0baae407ae41.jpg" alt="水" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shuǐ</div>
+<div class="chinese">水</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/fbc22b7ff84f70a35cf2698215c220a0.jpg" alt="果汁" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">guǒ zhī</div>
+<div class="chinese">果汁</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/3bd8c7aa1b143a90381252251d391d7e.jpg" alt="牛奶" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">niú nǎi</div>
+<div class="chinese">牛奶</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/45c44398a992e869448a385b169537c1.jpg" alt="咖啡" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">kā fēi</div>
+<div class="chinese">咖啡</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/4960e523745690922e55119d69432fe1.jpg" alt="饮料" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">yǐn liào</div>
+<div class="chinese">饮料</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/886e07c35d16b8d870f3f0c81f73b135.jpg" alt="茶" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">chá</div>
+<div class="chinese">茶</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 text-gray-700">商店类</h2>
+<div class="grid grid-cols-4 gap-6">
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/5bf77636dfbab7823f4fb03c8b3b2c48.jpg" alt="面包店" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">miàn bāo diàn</div>
+<div class="chinese">面包店</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/f05fb736b72faa7e45526e4e351ac213.jpg" alt="肉店" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">ròu diàn</div>
+<div class="chinese">肉店</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/4b3686d6fe195f12d2ff2e3a439bb4a1.jpg" alt="蔬菜店" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shū cài diàn</div>
+<div class="chinese">蔬菜店</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/df5d85b86deaf770196cabfe879a9447.jpg" alt="书店" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shū diàn</div>
+<div class="chinese">书店</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/e6f56e2a2310af3b81121e338724ef20.jpg" alt="水果店" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">shuǐ guǒ diàn</div>
+<div class="chinese">水果店</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+<div class="word-card bg-white rounded-xl p-4 shadow-md">
+<div class="aspect-w-1 aspect-h-1 mb-4 overflow-hidden rounded-lg">
+<img src="https://ai-public.mastergo.com/ai/img_res/e98dcc50faceb1f97f65410b7a3be928.jpg" alt="宠物店" class="w-full h-full object-cover">
+</div>
+<div class="text-center">
+<div class="pinyin">chǒng wù diàn</div>
+<div class="chinese">宠物店</div>
+<button class="play-button mt-3 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center !rounded-button">
+<i class="fas fa-volume-up text-gray-600"></i>
+</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+document.querySelectorAll('.play-button').forEach(button => {
+button.addEventListener('click', function() {
+const word = this.parentElement.querySelector('.chinese').textContent;
+let msg = new SpeechSynthesisUtterance(word);
+msg.lang = 'zh-CN';
+window.speechSynthesis.speak(msg);
+});
+});
+</script>
+</body>
+</html>
