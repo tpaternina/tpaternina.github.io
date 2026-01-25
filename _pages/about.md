@@ -8,14 +8,4 @@ permalink: /about/
 <img src="/assets/images/tpo_logo_solid.svg">
 </center>
 
-I am a bioinformatician with a PhD who decided to learn full-stack web development. My goal is to develop web applications of any kind, from on-line portfolios, to e-commerce, to data analysis and visualization apps. I also enjoy writing, so I am recording my journey through learning web development on <a href="https://tpaternina.github.io" target="_blank">this blog</a>. 
-
-Besides coding, I am interested in the intersection between personal development, fitness and well-being, human and animal rights, and the environment.
-
-The letters on my logo are my initials: TPO for Toni Paternina Osorio (we hispanics have two last names).
-
-
-
-Feel free to contact me on my LinkedIn or via email.
-
-Cheers!
+Creé este blog con la intención de vender mi perfil profesional de desarrollador web. Quedó completamente abandonado. He decidido reciclarlo para ir publicando mini-ensayos en vez de acumular pensamientos improductivos y alimentar mi ansiedad.
