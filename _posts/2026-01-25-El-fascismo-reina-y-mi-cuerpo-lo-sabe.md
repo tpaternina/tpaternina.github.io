@@ -1,3 +1,11 @@
+---
+layout: single
+title: "El fascismo reina, y mi cuerpo lo sabe"
+date: 2026-01-25 14:00:00 +0100
+excerpt: "El efecto fisiológico del fin del mundo como lo conocemos."
+---
+
+
 El 11 de enero de 2026 casi tengo un accidente con la moto. Por un descuido total, casi choco con otra moto.  Perdí el control y me caí. Nadie resultó gravemente herido. Yo salí con algunos raspones y magulladuras que ya casi no siento. Pero el cuerpo tiene mecanismos para reaccionar al peligro, ya sea real o no, y estoy seguro de que mi sangre rezumaba hormonas del estrés que activaron mi respuesta de supervivencia.
 
 Recordemos que la brutal invasión a Gaza llevaba para ese entonces más de dos años activa, incluso con pactos de cese al fuego. En paralelo, cientos de titulares cada vez más horrorosos aparecían en mis redes sociales, que, para bien o para mal, son de donde me llega la mayor parte de la información de lo que ocurre en el mundo. Toda esa información, toda la mierda que embarra al mundo contemporáneo, fue acumulándose también dentro de mí. Y es que, aunque no pensara conscientemente en todo lo que está mal con el mundo, cada titular disparaba una emoción intensa de rabia e impotencia que se quedó almacenada en mi cuerpo. Mi mente tal vez olvidaba momentáneamente las tragedias en el mundo, pero el cuerpo recordaba.
